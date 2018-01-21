@@ -1,0 +1,9 @@
+Building BBKTCoin
+
+See doc/readme-qt.rst for instructions on building BBKTCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of BBKTCoin.
+
+See doc/build-*.txt for instructions on building BitBlocksd,
+the intended-for-services, no-graphical-interface, reference
+implementation of BBKTCoin.
