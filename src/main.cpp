@@ -1009,84 +1009,84 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
             nSubsidy = 15000000 * COIN; // 3% for developers - Presale - Bounty - Market
 			
 			}
-            else if(nBestHeight <= 7200) // Pre-sale time
+            else if(nBestHeight <= 3200) // Pre-sale time
             {
             nSubsidy = 0 * COIN;
             }
 			
 		    else if(nBestHeight <= 100000)
             {
-            nSubsidy = 200 * COIN;
+            nSubsidy = 50 * COIN;
             }
 			
 			 else if(nBestHeight <= 200000)
             {
-            nSubsidy = 175 * COIN;
+            nSubsidy = 40 * COIN;
             }
 			
 			 else if(nBestHeight <= 300000)
             {
-            nSubsidy = 150 * COIN;
+            nSubsidy = 30 * COIN;
             }
 			
 			else if(nBestHeight <= 400000)
             {
-            nSubsidy = 125 * COIN;
+            nSubsidy = 25 * COIN;
             }
 			
 			else if(nBestHeight <= 500000)
             {
-            nSubsidy = 100 * COIN;
+            nSubsidy = 20 * COIN;
             }
 			
 			else if(nBestHeight <= 600000)
             {
-            nSubsidy = 90 * COIN;
+            nSubsidy = 15 * COIN;
             }
 			
 			else if(nBestHeight <= 700000)
             {
-            nSubsidy = 80 * COIN;
+            nSubsidy = 10 * COIN;
             }
 			
 			else if(nBestHeight <= 800000)
             {
-            nSubsidy = 70 * COIN;
+            nSubsidy = 9 * COIN;
             }
 			
 			else if(nBestHeight <= 900000)
             {
-            nSubsidy = 60 * COIN;
+            nSubsidy = 8 * COIN;
             }
 			
 			else if(nBestHeight <= 1000000)
             {
-            nSubsidy = 50 * COIN;
+            nSubsidy = 7 * COIN;
             }
 			
 			else if(nBestHeight <= 1500000)
             {
-            nSubsidy = 25 * COIN;
+            nSubsidy = 6 * COIN;
             }
 			
 			else if(nBestHeight <= 2000000)
             {
-            nSubsidy = 10 * COIN;
+            nSubsidy = 5 * COIN;
             }
 			
 			else if(nBestHeight <= 3000000)
             {
-            nSubsidy = 5 * COIN;
+            nSubsidy = 3 * COIN;
             }
 			
 			else if(nBestHeight <= 4000000)
             {
-            nSubsidy = 2.5 * COIN;
+            nSubsidy = 1 * COIN;
             }
 			
 			else if(nBestHeight <= 5000000)
             {
-            nSubsidy = 1 * COIN;
+            nSubsidy = 0.5 * COIN;
             }
 			
 			else
@@ -1114,45 +1114,45 @@ int64_t GetProofOfStakeReward(int nHeight, int64_t nCoinAge, int64_t nFees)
 				 else if(nBestHeight <= 100000)
 				
 			 {
-				 nSubsidy = nSubsidy * 10 ;  //1000%
-			 }
-			 
-			  else if(nBestHeight <= 200000)
-				
-			 {
 				 nSubsidy = nSubsidy * 5 ;  //500%
 			 }
 			 
-			 
-			   else if(nBestHeight <= 300000)
+			  else if(nBestHeight <= 200000)
 				
 			 {
 				 nSubsidy = nSubsidy * 2.5 ;  //250%
 			 }
 			 
 			 
-			   else if(nBestHeight <= 400000)
+			   else if(nBestHeight <= 300000)
 				
 			 {
 				 nSubsidy = nSubsidy * 1.25 ;  //125%
 			 }
 			 
+			 
+			   else if(nBestHeight <= 400000)
+				
+			 {
+				 nSubsidy = nSubsidy * 0.6 ;  //60%
+			 }
+			 
 			    else if(nBestHeight <= 500000)
 				
 			 {
-				 nSubsidy = nSubsidy * 1 ;  //100%
+				 nSubsidy = nSubsidy * 0.3 ;  //30%
 			 }
 			 
 			 
 			    else if(nBestHeight <= 1000000)
 				
 			 {
-				 nSubsidy = nSubsidy * 0.5 ;  //50%
+				 nSubsidy = nSubsidy * 0.1 ;  //10%
 			 }
 			 
 			   else
 			{
-			 nSubsidy = nSubsidy * 0.1 ;  //10%
+			 nSubsidy = nSubsidy * 0.01 ;  //1%
 			}
 
     if (fDebug && GetBoolArg("-printcreation"))
