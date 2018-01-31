@@ -1,3 +1,33 @@
+https://imgur.com/BdjuuqJ
+
+http://bitblocksproject.com/
+
+Instant, Anonymous, Secure, No fee & Rewarding Cryptocurrency For Everyone
+
+Instant Transactions - Send and receive payments and confirm within seconds
+
+Zero Fees - Improve your savings with BitBlocks zero transaction fees
+
+Secure - Have complete ownership and control over your finances.
+
+Private - No blacklisting, no tracing, no intermediary required.
+
+Staking - Forget power-hungry mining rigs – stake and earn interest
+
+Community Driven - As a Bitblocks owner, you’re part of a powerful support network
+
+Crowdsale
+
+why crowdsale? 
+Many new currencies have low volume and small exchanges. this pre-sale is exclusively to add the currency in major exchanges. In order to achieve:
+
+Trade Satoshi = 0.75 BTC
+Coin Exchange = 1.5 BTC
+Mercatox = 1.5 BTC
+Cryptopia = 5 BTC
+
+specifications
+
 Algo: Scrypt
 Type: PoW + POS
 Address letter: B
@@ -6,4 +36,25 @@ premine: 3%
 Max supply: 500m
 Block time: 2min (change to 1min after block 40k)
 
+POS REWARD:
 
+Pos start after block 20k
+
+Block 20k-100k 500%
+Block 100k-400k 250%
+Block 400k-600k 125%
+Block 600k-800k 60%
+Block 800k-1mil 30%
+Block 1mil-1.5mil 10%
+Block 1.5mil+ 1%
+
+POW REWARD
+
+Pow start after block 3.2k
+
+Block 3.2k-100k = 50BBK
+Block 100k-200k = 40BBK
+Block 200k-300k = 30BBK
+Block 300k-400k = 25BBK
+Block 400k-500k = 20BBK
+Block 500k-600k = 15BBK
