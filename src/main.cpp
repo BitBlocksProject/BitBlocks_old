@@ -42,6 +42,7 @@ CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
 unsigned int nTargetSpacing = 60 * 2; // 2 minute
 unsigned int nTargetSpacing_v2 = 60 * 1; //1 minute
+unsigned int nTargetSpacing_v3 = 15; // 15s
 unsigned int nStakeMinAge = 60 * 60 * 24; //24h
 unsigned int nStakeMaxAge = -1; // unlimited
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
@@ -1244,14 +1245,20 @@ static unsigned int GetNextTargetRequiredV1(const CBlockIndex* pindexLast, bool 
 
 static unsigned int GetNextTargetRequiredV2(const CBlockIndex* pindexLast, bool fProofOfStake)
 {
-    if (pindexBest->nHeight+1 >= 40000)
-    {
-        nTargetSpacing = nTargetSpacing_v2;
-    }
-    else
+    if (pindexBest->nHeight+1 <= 39999)
     {
         nTargetSpacing = nTargetSpacing;
     }
+    else if  (pindexBest->nHeight+1 <=149999)
+    {
+        nTargetSpacing = nTargetSpacing_v2;
+    }
+    else if  (pindexBest->nHeight+1 >=150000)
+    {
+        nTargetSpacing = nTargetSpacing_v3;
+    }
+
+
 
     if (pindexBest->nHeight+1 >= 40000)
     {
