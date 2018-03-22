@@ -44,8 +44,7 @@ premine: 3%
 
 Max supply: 500m
 
-Block time: 2min (change to 1min after block 40k)
-
+Block time: 1min (change to 15s after block 150k)
 
 POS REWARD:
 
