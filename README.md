@@ -18,18 +18,6 @@ Community Driven - As a Bitblocks owner, you’re part of a powerful support net
 
 Crowdsale
 
-why crowdsale? 
-Many new currencies have low volume and small exchanges. this pre-sale is exclusively to add the currency in major exchanges. In order to achieve:
-
-Trade Satoshi = 0.75 BTC
-
-Coin Exchange = 1.5 BTC
-
-Mercatox = 1.5 BTC
-
-Cryptopia = 5 BTC
-
-
 specifications
 
 Algo: Scrypt
