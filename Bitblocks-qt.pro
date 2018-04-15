@@ -12,6 +12,18 @@ greaterThan(QT_MAJOR_VERSION, 4) {
     DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0
 }
 
+macx {
+#
+        BOOST_INCLUDE_PATH=/usr/local/opt/boost162/include
+        BOOST_LIB_PATH=/usr/local/opt/boost162/lib
+        BDB_INCLUDE_PATH=/usr/local/opt/berkeley-db@4/include
+        BDB_LIB_PATH=/usr/local/opt/berkeley-db@4/lib
+        OPENSSL_INCLUDE_PATH=/usr/local/opt/openssl/include
+        OPENSSL_LIB_PATH=/usr/local/opt/openssl/lib
+        MINIUPNPC_INCLUDE_PATH=/usr/local/opt/miniupnpc/include
+        MINIUPNPC_LIB_PATH=/usr/local/opt/miniupnpc/lib
+        
+        }
 # for boost 1.37, add -mt to the boost libraries
 # use: qmake BOOST_LIB_SUFFIX=-mt
 # for boost thread win32 with _win32 sufix

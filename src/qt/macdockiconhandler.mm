@@ -2,7 +2,7 @@
 
 #include <QImageWriter>
 #include <QMenu>
-#include <QTemporaryFile>
+#include <QBuffer>
 #include <QWidget>
 
 #undef slots
@@ -85,26 +85,26 @@ void MacDockIconHandler::setIcon(const QIcon &icon)
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     NSImage *image = nil;
     if (icon.isNull())
-        image = [[NSImage imageNamed:@"NSApplicationIcon"] retain];
+        image = [[NSImage imagenamed:@"NSApplicationIcon"] retain];
     else {
         // generate NSImage from QIcon and use this as dock icon.
         QSize size = icon.actualSize(QSize(128, 128));
         QPixmap pixmap = icon.pixmap(size);
 
-        // write temp file DRM (could also be done through QIODevice [memory])
-        QTemporaryFile notificationIconFile;
-        if (!pixmap.isNull() && notificationIconFile.open()) {
-            QImageWriter writer(&notificationIconFile, "PNG");
+        // Write image into a R/W buffer from raw pixmap, then save the image.
+        QBuffer notificationBuffer;
+        if (!pixmap.isNull() && notificationBuffer.open(QIODevice::ReadWrite)) {
+            QImageWriter writer(&notificationBuffer, "PNG");
             if (writer.write(pixmap.toImage())) {
-                const char *cString = notificationIconFile.fileName().toUtf8().data();
-                NSString *macString = [NSString stringWithCString:cString encoding:NSUTF8StringEncoding];
-                image =  [[NSImage alloc] initWithContentsOfFile:macString];
+                NSData* macImgData = [NSData dataWithBytes:notificationBuffer.buffer().data()
+                                             length:notificationBuffer.buffer().size()];
+                image =  [[NSImage alloc] initWithData:macImgData];
             }
         }
 
         if(!image) {
             // if testnet image could not be created, load std. app icon
-            image = [[NSImage imageNamed:@"NSApplicationIcon"] retain];
+            image = [[NSImage imagenamed:@"NSApplicationIcon"] retain];
         }
     }
 
