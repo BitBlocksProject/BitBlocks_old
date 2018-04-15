@@ -1,15 +1,17 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ja">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About bitblocks</source>
-        <translation>ブラックコインについて</translation>
+        <translation>bitblocksについて</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;bitblocks&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;ブラックコイン&lt;/b&gt;バージョン</translation>
+        <translation>&lt;b&gt;bitblocks&lt;/b&gt;バージョン</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -56,7 +58,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>現在選択されているアドレスをシステムのクリップボードにコピーする</translation>
+        <translation>現在選択されているアドレスをクリップボードへコピー</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -66,27 +68,27 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="-46"/>
         <source>These are your bitblocks addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>これは支払いを受けるためのブラックコインのアドレス。支払い管理をするのため、各送信者へ、それぞれのアドレスを伝えたほうがいいです。</translation>
+        <translation>これは支払いを受けるためのbitblocksのアドレス。支払い管理をするのため、各送信者へ、それぞれのアドレスを伝えたほうがいいです。</translation>
     </message>
     <message>
         <location line="+60"/>
         <source>&amp;Copy Address</source>
-        <translation>アドレスをコピー (&amp;C)</translation>
+        <translation>アドレスをコピー(&amp;C)</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
-        <translation>QRコードを表す</translation>
+        <translation>QRコード (&amp;Q)</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Sign a message to prove you own a bitblocks address</source>
-        <translation>所有権の証明するためのメサッジを署名する。</translation>
+        <translation type="unfinished">所有権の証明するためのメッセージを署名する。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>メサッジを署名する。</translation>
+        <translation>メッセージの署名 (&amp;M)</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -101,12 +103,12 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+3"/>
         <source>&amp;Verify Message</source>
-        <translation>メッセージを確認する。</translation>
+        <translation>メッセージの検証 (&amp;V)</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>削除</translation>
+        <translation>削除 (&amp;D)</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+65"/>
@@ -121,7 +123,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+250"/>
         <source>Export Address Book Data</source>
-        <translation>アドレス帳のデータを書き出す</translation>
+        <translation>アドレス帳のデータをエクスポート</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -131,12 +133,12 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>エラーを書き出す</translation>
+        <translation>エクスポートエラー</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>ファイルを書き込めなかった。%1</translation>
+        <translation>ファイル%1に書き込みできません。</translation>
     </message>
 </context>
 <context>
@@ -154,7 +156,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>（ラベル無し）</translation>
+        <translation>（ラベルなし）</translation>
     </message>
 </context>
 <context>
@@ -177,17 +179,17 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>新しいパスフレーズをもう一度</translation>
+        <translation>新しいパスフレーズの再入力</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>ユーザアカウントはハッキングされたばい、瑣末のsendmoney無効にする。機密保護には効果はない。</translation>
+        <translation>OSのアカウントが侵害された場合、送金を無効にします。実際のセキュリティは提供されません。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>For staking only</source>
-        <translation>賭けるのみ</translation>
+        <translation>Stakeのみ</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+35"/>
@@ -202,7 +204,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+7"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>この操作はウォレットをアンロックするためにパスフレーズが必要です。</translation>
+        <translation>ウォレットをアンロックするためにはパスフレーズが必要です。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -212,7 +214,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>この操作はウォレットの暗号化解除のためにパスフレーズが必要です。</translation>
+        <translation>ウォレットの暗号化解除のためにはパスフレーズが必要です。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -237,12 +239,12 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>ご注意：暗号化したウォレットのパスワードを忘れたばい、b&gt;すべてのコインを失う&lt;/b&gt;!</translation>
+        <translation>ご注意：暗号化したウォレットのパスワードを忘れた場合、&lt;b&gt;すべてのコインを失います&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>ウォレットを暗号化、よろしいですか?</translation>
+        <translation>ウォレットを暗号化してよろしいですか?</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -253,7 +255,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <location line="+103"/>
         <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>警告: Caps Lock キーがオンになっています!</translation>
+        <translation>警告: Capsキーがロックされています!</translation>
     </message>
     <message>
         <location line="-133"/>
@@ -264,7 +266,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="-58"/>
         <source>bitblocks will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>ただいま、暗号化手順を完成するため、ブラックコインQTは閉じます。尚、ウォレットを暗号化をされたにしても、PCのウイルスから盗難防止の報償できないことを、ご理解をお願い足します。</translation>
+        <translation>ただいま、暗号化手順を完成するため、bitblocksQTは閉じます。尚、ウォレットを暗号化をされたにしても、PCのウイルスから盗難防止の報償できないことを、ご理解をお願い足します。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -277,7 +279,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="-56"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>内部エラーによりウォレットの暗号化が失敗しました。ウォレットは暗号化されませんでした。</translation>
+        <translation>内部エラーによりウォレットの暗号化が失敗しました。ウォレットは暗号化されていません。</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -305,7 +307,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>ウォレットのパスフレーズの変更が成功しました。</translation>
+        <translation>ウォレットのパスフレーズが正常に変更れれました。</translation>
     </message>
 </context>
 <context>
@@ -333,22 +335,22 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+17"/>
         <source>&amp;Transactions</source>
-        <translation>処理(&amp;T)</translation>
+        <translation>トランザクション(&amp;T)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>処理履歴を閲覧</translation>
+        <translation>トランザクション履歴を閲覧</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>&amp;Address Book</source>
-        <translation>アドレス帳</translation>
+        <translation>アドレス帳(&amp;A)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>保存されたアドレスとラベルの編集</translation>
+        <translation>アドレスとラベルの編集</translation>
     </message>
     <message>
         <location line="-13"/>
@@ -358,7 +360,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+1"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>支払いを受けるためのアドレスリストを表示</translation>
+        <translation>支払いを受け取るためのアドレス一覧を見る</translation>
     </message>
     <message>
         <location line="-7"/>
@@ -368,52 +370,54 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+35"/>
         <source>E&amp;xit</source>
-        <translation>終了(&amp;E)</translation>
+        <translation>終了(&amp;x)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Quit application</source>
-        <translation>アプリケーションを終了</translation>
+        <translation>アプリケーションの終了</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Show information about bitblocks</source>
-        <translation>ブラックコインの情報を表示</translation>
+        <translation>bitblocksの情報を表示</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>About &amp;Qt</source>
-        <translation>Qt について(&amp;Q)</translation>
+        <translation>Qtについて(&amp;Q)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>Qt の情報を表示</translation>
+        <translation>Qtについての情報を見る</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>オプション... (&amp;O)</translation>
+        <translation>オプション(&amp;O)...</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>ウォレットの暗号化... (&amp;E)</translation>
+        <translation>ウォレットの暗号化(&amp;E)...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>ウォレットのバックアップ... (&amp;B)</translation>
+        <translation>ウォレットのバックアップ(&amp;B)...</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>パスフレーズの変更... (&amp;C)</translation>
+        <translation>パスフレーズの変更(&amp;C)...</translation>
     </message>
     <message numerus="yes">
         <location line="+250"/>
         <source>~%n block(s) remaining</source>
-        <translation><numerusform>~%n ブロックが残っている</numerusform></translation>
+        <translation>
+            <numerusform>~%n ブロックが残っている</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+6"/>
@@ -423,57 +427,57 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="-247"/>
         <source>&amp;Export...</source>
-        <translation>(&amp;E)書き出す...</translation>
+        <translation>エクスポート(&amp;E)...</translation>
     </message>
     <message>
         <location line="-62"/>
         <source>Send coins to a bitblocks address</source>
-        <translation>ブラックコインアドレスへコインを送る</translation>
+        <translation>bitblocksアドレスへコインを送る</translation>
     </message>
     <message>
         <location line="+45"/>
         <source>Modify configuration options for bitblocks</source>
-        <translation>ブラックコインの設定を変化する</translation>
+        <translation>bitblocksの設定を変化する</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>現在のタブのデータをファイルへ書き出す</translation>
+        <translation>現在のタブのデータをファイルへエキスポート</translation>
     </message>
     <message>
         <location line="-14"/>
         <source>Encrypt or decrypt wallet</source>
-        <translation>ウォレットを暗号化か暗号化を解除する</translation>
+        <translation>ウォレットを暗号化と暗号化の解除</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Backup wallet to another location</source>
-        <translation>ウォレットを他の場所にバックアップ</translation>
+        <translation>ウォレットを他の場所へバックアップ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>ウォレット暗号化用パスフレーズの変更</translation>
+        <translation>ウォレット暗号化に使用するパスフレーズの変更</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>&amp;Debug window</source>
-        <translation>デバッグ ウインドウ (&amp;D)</translation>
+        <translation>デバッグ ウインドウ(&amp;D)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>デバッグと診断コンソールを開く</translation>
+        <translation>デバッグと診断のコンソールを開く</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>&amp;Verify message...</source>
-        <translation>メッセージの検証... (&amp;V)</translation>
+        <translation>メッセージの検証(&amp;V)...</translation>
     </message>
     <message>
         <location line="-200"/>
         <source>bitblocks</source>
-        <translation>ブラックコイン</translation>
+        <translation>bitblocks</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -483,12 +487,12 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+178"/>
         <source>&amp;About bitblocks</source>
-        <translation>ブラックコインについて</translation>
+        <translation>bitblocksについて</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation>見る/隠す (&amp;S)</translation>
+        <translation>表示/非表示(&amp;S)</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -498,7 +502,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+1"/>
         <source>&amp;Lock Wallet</source>
-        <translation>(&amp;L)ウォレットをロックする</translation>
+        <translation>ウォレットのロック(&amp;L)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -540,12 +544,14 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <location line="+0"/>
         <location line="+60"/>
         <source>bitblocks client</source>
-        <translation>ブラックコインクライアントソフトウェア</translation>
+        <translation>bitblocksクライアントソフトウェア</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
         <source>%n active connection(s) to bitblocks network</source>
-        <translation><numerusform>ブラックコインネットワークへの%n アクティブな接続</numerusform></translation>
+        <translation>
+            <numerusform>bitblocksネットワークへの%n アクティブな接続</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+40"/>
@@ -555,32 +561,34 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+413"/>
         <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>賭けている。&lt;br&gt;重さは%1&lt;br&gt;ネットワークの重さは%2&lt;br&gt;報酬をもらう時間の推測は%3</translation>
+        <translation>stakeしています。&lt;br&gt;重さは%1&lt;br&gt;ネットワークの重さは%2&lt;br&gt;報酬をもらう時間の推測は%3</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Not staking because wallet is locked</source>
-        <translation>ウォレットをロックされたため、賭けていません</translation>
+        <translation>ウォレットがロックされているためstakeしていません</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Not staking because wallet is offline</source>
-        <translation>ウォレットはオフラインで、賭けていません</translation>
+        <translation>ウォレットがオフラインのためstakeしていません</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Not staking because wallet is syncing</source>
-        <translation>ウォレットは同期最中ため、賭けていません。</translation>
+        <translation>ウォレットは同期中のためstakeしていません</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>コインはまだ成長できていないため、賭けていません。</translation>
+        <translation>コインはまだ成長できていないため、stakeしていません</translation>
     </message>
     <message numerus="yes">
         <location line="-403"/>
         <source>%n second(s) ago</source>
-        <translation><numerusform>%n 秒前</numerusform></translation>
+        <translation>
+            <numerusform>%n 秒前</numerusform>
+        </translation>
     </message>
     <message>
         <location line="-284"/>
@@ -590,22 +598,28 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message numerus="yes">
         <location line="+288"/>
         <source>%n minute(s) ago</source>
-        <translation><numerusform>%n 分前</numerusform></translation>
+        <translation>
+            <numerusform>%n 分前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n hour(s) ago</source>
-        <translation><numerusform>%n 時間前</numerusform></translation>
+        <translation>
+            <numerusform>%n 時間前</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n day(s) ago</source>
-        <translation><numerusform>%n 日間前</numerusform></translation>
+        <translation>
+            <numerusform>%n 日間前</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Up to date</source>
-        <translation>バージョンは最新です</translation>
+        <translation>最新です</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -625,7 +639,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     <message>
         <location line="+5"/>
         <source>Confirm transaction fee</source>
-        <translation>処理手数料を確認する</translation>
+        <translation>トランザクション手数料を確認する</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -645,7 +659,7 @@ Type: %3
 Address: %4
 </source>
         <translation>日付: %1
-総額: %2
+金額: %2
 種類: %3
 アドレス: %4</translation>
     </message>
@@ -653,18 +667,18 @@ Address: %4
         <location line="+100"/>
         <location line="+15"/>
         <source>URI handling</source>
-        <translation>URIの取り扱い</translation>
+        <translation>URIの操作</translation>
     </message>
     <message>
         <location line="-15"/>
         <location line="+15"/>
         <source>URI can not be parsed! This can be caused by an invalid bitblocks address or malformed URI parameters.</source>
-        <translation>URIのパーズができませんでした！。原因は無効なブラックコインアドレスか不正なURIパラメータ。</translation>
+        <translation>URIのパーズができませんでした！。原因は無効なbitblocksアドレスか不正なURIパラメータ。</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>ウォレットは&lt;b&gt;暗号化されて、アンロックされています&lt;/b&gt;</translation>
+        <translation>ウォレットは&lt;b&gt;暗号化されて、ロック解除されています&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -679,7 +693,7 @@ Address: %4
     <message>
         <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>ウォレットのデータ (*.dat)</translation>
+        <translation>ウォレット データ (*.dat)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -689,32 +703,40 @@ Address: %4
     <message>
         <location line="+0"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>ウォレットのデータが新しい場所へ保存するにはエラーになりました。</translation>
+        <translation>ウォレットのデータを新しい場所へ保存しようとしてエラーになりました。</translation>
     </message>
     <message numerus="yes">
         <location line="+76"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n 秒</numerusform></translation>
+        <translation>
+            <numerusform>%n 秒</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n 分</numerusform></translation>
+        <translation>
+            <numerusform>%n 分</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n hour(s)</source>
-        <translation><numerusform>%n 時間</numerusform></translation>
+        <translation>
+            <numerusform>%n 時間</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n day(s)</source>
-        <translation><numerusform>%n 日間</numerusform></translation>
+        <translation>
+            <numerusform>%n 日間</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Not staking</source>
-        <translation>賭けていません</translation>
+        <translation>Stakeしていません</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
@@ -735,7 +757,7 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="+14"/>
         <source>Coin Control</source>
-        <translation>コインのコントロール</translation>
+        <translation type="unfinished">コインコントロール</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -750,22 +772,22 @@ Address: %4
     <message>
         <location line="+48"/>
         <source>Amount:</source>
-        <translation>総額:</translation>
+        <translation>金額:</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Priority:</source>
-        <translation>優先:</translation>
+        <translation>優先度:</translation>
     </message>
     <message>
         <location line="+48"/>
         <source>Fee:</source>
-        <translation>料金:</translation>
+        <translation>手数料:</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Low Output:</source>
-        <translation>アウトプット低い:</translation>
+        <translation>低い出力:</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="+551"/>
@@ -775,37 +797,37 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="+51"/>
         <source>After Fee:</source>
-        <translation>料金の後</translation>
+        <translation>手数料差引後:</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Change:</source>
-        <translation>お釣り:</translation>
+        <translation>釣り銭:</translation>
     </message>
     <message>
         <location line="+69"/>
         <source>(un)select all</source>
-        <translation>すべてを選択か選択を解除</translation>
+        <translation>全選択/全解除</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Tree mode</source>
-        <translation>木モード</translation>
+        <translation>ツリーモード</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>List mode</source>
-        <translation>リストモード</translation>
+        <translation>一覧モード</translation>
     </message>
     <message>
         <location line="+45"/>
         <source>Amount</source>
-        <translation>総額</translation>
+        <translation>金額</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Label</source>
-        <translation>レベル</translation>
+        <translation>ラベル</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -820,17 +842,17 @@ Address: %4
     <message>
         <location line="+5"/>
         <source>Confirmations</source>
-        <translation>検証済みの数</translation>
+        <translation>検証数</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed</source>
-        <translation>検証済</translation>
+        <translation>検証済み</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Priority</source>
-        <translation>優先</translation>
+        <translation>優先度</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="-515"/>
@@ -846,12 +868,12 @@ Address: %4
         <location line="+1"/>
         <location line="+26"/>
         <source>Copy amount</source>
-        <translation>総額のコピー</translation>
+        <translation>金額のコピー</translation>
     </message>
     <message>
         <location line="-25"/>
         <source>Copy transaction ID</source>
-        <translation>処理のIDをコピー</translation>
+        <translation>トランザクションIDをコピー</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -861,12 +883,12 @@ Address: %4
     <message>
         <location line="+2"/>
         <source>Copy fee</source>
-        <translation>料金をコピー</translation>
+        <translation>手数料をコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy after fee</source>
-        <translation>料金の後をコピー</translation>
+        <translation>手数料差引後をコピー</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -876,17 +898,17 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>Copy priority</source>
-        <translation>優先をコピー</translation>
+        <translation>優先度をコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy low output</source>
-        <translation>アウトプット低いをコピー</translation>
+        <translation>低い出力をコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change</source>
-        <translation>お釣りをコピー</translation>
+        <translation>釣り銭をコピー</translation>
     </message>
     <message>
         <location line="+317"/>
@@ -926,7 +948,7 @@ Address: %4
     <message>
         <location line="+155"/>
         <source>DUST</source>
-        <translation>ほこり</translation>
+        <translation>DUST</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -940,11 +962,11 @@ Address: %4
  This means a fee of at least %1 per kb is required.
 
  Can vary +/- 1 Byte per input.</source>
-        <translation>このラベルが赤くなったら、処理の大きさは10000バイトより大きいです。
+        <translation>このラベルが赤くなったら、トランザクションの大きさは10000バイトより大きいです。
 
-少なくとも%1 KBあたりの料金は必要となります。
+1KBあたり最低%1 の手数料が必要となります。
 
-入力データによって、料金の+/-1 バイトが可能です。</translation>
+１つの入力につき1バイト前後ずれることがあります。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -966,36 +988,36 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
  This means a fee of at least %2 is required. 
 
  Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
-        <translation>任意の受信者は%1より少ない額をもらったばい、このラベルは赤くなる。
+        <translation>受信者が％1より小さい金額を受け取った場合、ラベルは赤色に変わります。
 
-少なくとも%2の料金は必要となります。
+最低%2の手数料が必要となります。
 
-最小なリレー料金　x　0.546より下の額は、ほこりになります。</translation>
+最低中継料金の0.546以下の金額は、DUSTとして表示されます。</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This label turns red, if the change is smaller than %1.
 
  This means a fee of at least %2 is required.</source>
-        <translation>このラベルが赤くなたら、お釣りは%1より少ない。
+        <translation>釣り銭が%1より小さい場合、ラベルが赤色に変わります。
 
-少なくとも%2の料金は必要となります。</translation>
+これは最低%2の手数料が必要となります。</translation>
     </message>
     <message>
         <location line="+37"/>
         <location line="+66"/>
         <source>(no label)</source>
-        <translation>（ラベル無し）</translation>
+        <translation>（ラベルなし）</translation>
     </message>
     <message>
         <location line="-9"/>
         <source>change from %1 (%2)</source>
-        <translation>%1 (%2)からお釣り</translation>
+        <translation>%1 (%2)からの釣り銭</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>(change)</source>
-        <translation>(お釣り)</translation>
+        <translation>(釣り銭)</translation>
     </message>
 </context>
 <context>
@@ -1013,37 +1035,37 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>このアドレス帳の入力のラベル</translation>
+        <translation>このアドレス帳エントリに関連付けられたラベル</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Address</source>
-        <translation>アドレス帳 (&amp;A)</translation>
+        <translation>アドレス (&amp;A)</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>このアドレス帳の入力のアドレス。通信アドレスした変更ができない。</translation>
+        <translation>アドレス帳エントリに関連付けられたアドレス。送金用アドレスのみアドレスを変更できます。</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+20"/>
         <source>New receiving address</source>
-        <translation>新しい受信アドレス</translation>
+        <translation>新しい受け取りアドレス</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>新しい送信アドレス</translation>
+        <translation>新しい送金用アドレス</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>受信アドレスを編集</translation>
+        <translation>受け取りアドレスを編集</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>送信アドレスを編集</translation>
+        <translation>送金用アドレスを編集</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1053,12 +1075,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid bitblocks address.</source>
-        <translation>入力されたアドレス &quot;%1&quot; 、有効なブラックコインアドレスではない。</translation>
+        <translation>入力されたアドレス &quot;%1&quot; 、有効なbitblocksアドレスではない。</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>ウォレットをアンロックできませんでした。</translation>
+        <translation>ウォレットのロック解除ができませんでした。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1072,7 +1094,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
         <source>bitblocks-Qt</source>
-        <translation>ブラックコインQT</translation>
+        <translation>bitblocksQT</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1082,7 +1104,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation>使用法</translation>
+        <translation>使用法:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1097,17 +1119,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>言語の設定、例: &quot;de_DE&quot; (デフォルト:システムのロケール)</translation>
+        <translation>言語の設定、例: &quot;de_DE&quot; (ディフォルト:システムの言語)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Start minimized</source>
-        <translation>最小化でスタート</translation>
+        <translation>最小化された状態で起動する</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>スタートでスプラッシュスクリーンを表示(デフォルト:１)</translation>
+        <translation>起動時にスプラッシュ画面を表示する (初期値: 1)</translation>
     </message>
 </context>
 <context>
@@ -1125,17 +1147,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation>手続きを早めるためのオプショナル料金。だいたいの処理は1KB。料金の0.01が勧めです。</translation>
+        <translation>トランザクションを早めるための1KBあたりのオプショントランザクション手数料。だいたいのトランザクションは1KB。手数料はの0.01を推奨します。</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>支払う取引手数料 (&amp;f)</translation>
+        <translation>支払うトランザクション手数料 (&amp;f)</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation>貯金は賭ける参加しないため、いつでも支出できる。</translation>
+        <translation>貯金はStakeに参加しないため、いつでも支出できる。</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1145,12 +1167,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+31"/>
         <source>Automatically start bitblocks after logging in to the system.</source>
-        <translation>システムのログイン次第、自動的にブラックコインをスタート。</translation>
+        <translation>システムのログイン次第、自動的にbitblocksをスタート。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start bitblocks on system login</source>
-        <translation>システムログイン次第、ブラックコインをスタート</translation>
+        <translation>システムログイン次第、bitblocksをスタート</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1170,7 +1192,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+6"/>
         <source>Automatically open the bitblocks client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動的にルーターでブラックコインクライエントソフトウェアのポートを開く。ルーターはUPnPのサポートあり、UPnPを有効にするならできる。</translation>
+        <translation>自動的にルーターでbitblocksクライエントソフトウェアのポートを開く。ルーターはUPnPのサポートあり、UPnPを有効にするならできる。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1180,17 +1202,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <source>Connect to the bitblocks network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>ブラックコインのネットワークへSOCKSプロキシで接続する（例：TORで接続するばい）</translation>
+        <translation>bitblocksのネットワークへSOCKSプロキシで接続する（例：TORで接続するばい）</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>SOCKSプロキシで接続する</translation>
+        <translation>SOCKSプロキシ経由で接続する(&amp;C):</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation>プロキシの IP (&amp;I) :</translation>
+        <translation>プロキシのIP (&amp;I) :</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1210,7 +1232,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS バージョン (&amp;V) :</translation>
+        <translation>SOCKS バージョン (&amp;V):</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1235,7 +1257,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>ウインドウが閉じられる時アプリケーションを終了せずに最小化します。このオプションが有効な時にアプリケーションを終了するにはメニューから終了を選択します。</translation>
+        <translation>ウィンドウを閉じる際にアプリケーションを終了するのではなく、最小化します。このオプションが有効化された場合、メニューから終了を選択した場合にのみアプリケーションは閉じられます。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1245,12 +1267,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>表示 (&amp;D)</translation>
+        <translation>表示 (&amp;D</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>ユーザインターフェースの言語 (&amp;l) :</translation>
+        <translation>ユーザインターフェースの言語 (&amp;l):</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1260,7 +1282,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>額を表示する単位 (&amp;U) :</translation>
+        <translation>金額を表示する単位 (&amp;U):</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1270,7 +1292,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+9"/>
         <source>Whether to show bitblocks addresses in the transaction list or not.</source>
-        <translation>処理の歴史でブラックコインのアドレスを表示する／しない。</translation>
+        <translation>処理の歴史でbitblocksのアドレスを表示する／しない。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1285,7 +1307,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation>コインコントロールの設定を表示する(有識者のみ！)</translation>
+        <translation>コインコントロールを表示する(エキスパートのみ！)</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1311,18 +1333,18 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+149"/>
         <location line="+9"/>
         <source>Warning</source>
-        <translation>警告</translation>
+        <translation></translation>
     </message>
     <message>
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting bitblocks.</source>
-        <translation>この設定はブラックコインをリスタートした後に有効する。</translation>
+        <translation>この設定はbitblocksをリスタートした後に有効する。</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>プロキシアドレスが無効です。</translation>
+        <translation>指定されたプロキシアドレスが無効です。</translation>
     </message>
 </context>
 <context>
@@ -1336,12 +1358,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+33"/>
         <location line="+231"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the bitblocks network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示されている情報は時間遅れている。接続したら、ウォレットは自動的にブラックコインネットワークと同期しますが過程は完了してません。</translation>
+        <translation>表示されている情報は時間遅れている。接続したら、ウォレットは自動的にbitblocksネットワークと同期しますが過程は完了してません。</translation>
     </message>
     <message>
         <location line="-160"/>
         <source>Stake:</source>
-        <translation>賭け金：</translation>
+        <translation>Stake：</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1366,12 +1388,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+71"/>
         <source>Immature:</source>
-        <translation>未完成:</translation>
+        <translation>未成熟:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>完成していない採掘された残高</translation>
+        <translation>まだ成熟していない未熟な残高</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1381,22 +1403,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+16"/>
         <source>Your current total balance</source>
-        <translation>あなたの現在の残高</translation>
+        <translation>現在の残高</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;最近の処理&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;最近のトランザクション&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="-108"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>未確認の合計で、まだ現在の残高に含まれていない。</translation>
+        <translation>まだ検証されておらず、現在の残高にカウントされていないトランザクションの合計</translation>
     </message>
     <message>
         <location line="-29"/>
         <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>賭けているコインの合計で、まだ現在の残高に含まれていない。</translation>
+        <translation>まだ現在の残高に含まれていないStakeしているコインの合計</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+113"/>
@@ -1410,22 +1432,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/qrcodedialog.ui" line="+14"/>
         <source>QR Code Dialog</source>
-        <translation>QRコードのダイアログ</translation>
+        <translation>QRコード ダイアログ</translation>
     </message>
     <message>
         <location line="+59"/>
         <source>Request Payment</source>
-        <translation>支払いを要請する</translation>
+        <translation>支払の要求</translation>
     </message>
     <message>
         <location line="+56"/>
         <source>Amount:</source>
-        <translation>総額:</translation>
+        <translation>金額:</translation>
     </message>
     <message>
         <location line="-44"/>
         <source>Label:</source>
-        <translation>レベル</translation>
+        <translation>ラベル</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1435,22 +1457,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+71"/>
         <source>&amp;Save As...</source>
-        <translation>&amp;S名前を付けて保存...</translation>
+        <translation>名前を付けて保存(&amp;S)...</translation>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="+62"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation>URIからQRコードにエンコードするエラー。</translation>
+        <translation>URIをQRコードにエンコードする際にエラーが発生しました。</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>The entered amount is invalid, please check.</source>
-        <translation>入力された額は無効です。確認してください。</translation>
+        <translation>入力された金額は無効です。確認してください。</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>URIは長過ぎて、ラベル文字の長さを短くしてください。</translation>
+        <translation>URI が長くなり過ぎます。ラベルやメッセージのテキストを短くしてください。</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -1460,7 +1482,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+0"/>
         <source>PNG Images (*.png)</source>
-        <translation>PNG イメージ (*.png)</translation>
+        <translation>PNG (*.png)</translation>
     </message>
 </context>
 <context>
@@ -1517,12 +1539,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+23"/>
         <source>On testnet</source>
-        <translation>testnetで</translation>
+        <translation>On testnet</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Block chain</source>
-        <translation>ブロック チェーン</translation>
+        <translation>ブロックチェーン</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1537,7 +1559,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+23"/>
         <source>Last block time</source>
-        <translation>最終ブロックの日時</translation>
+        <translation>最終ブロック日時</translation>
     </message>
     <message>
         <location line="+52"/>
@@ -1552,12 +1574,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <source>Show the bitblocks-Qt help message to get a list with possible bitblocks command-line options.</source>
-        <translation>ブラックコインQTのコマンドラインのヘルプ情報を表示する。</translation>
+        <translation>bitblocksQTのコマンドラインのヘルプ情報を表示する。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Show</source>
-        <translation>(&amp;S)表示</translation>
+        <translation>表示 (&amp;S)</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -1567,17 +1589,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-260"/>
         <source>Build date</source>
-        <translation>ビルドの日付</translation>
+        <translation>ビルド日付</translation>
     </message>
     <message>
         <location line="-104"/>
         <source>bitblocks - Debug window</source>
-        <translation>ブラックコイン：デバッグウインドウ</translation>
+        <translation>bitblocks：デバッグウインドウ</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>bitblocks Core</source>
-        <translation>ブラックコインコア</translation>
+        <translation>bitblocksコア</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1597,7 +1619,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
         <source>Welcome to the bitblocks RPC console.</source>
-        <translation>ブラックコインRPCコンソールへようこそ。</translation>
+        <translation>bitblocksRPCコンソールへようこそ。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1622,12 +1644,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>コインを送る</translation>
+        <translation>コインの送金</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>Coin Control Features</source>
-        <translation>コインのコントロールの設定</translation>
+        <translation>コインコントロール機能</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1642,7 +1664,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+19"/>
         <source>Insufficient funds!</source>
-        <translation>資金不足！</translation>
+        <translation>残高不足！</translation>
     </message>
     <message>
         <location line="+77"/>
@@ -1663,7 +1685,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+51"/>
         <source>Amount:</source>
-        <translation>総額:</translation>
+        <translation>金額:</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -1676,7 +1698,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-191"/>
         <source>Priority:</source>
-        <translation>優先:</translation>
+        <translation>優先度:</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1686,12 +1708,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+32"/>
         <source>Fee:</source>
-        <translation>料金:</translation>
+        <translation>手数料:</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Low Output:</source>
-        <translation>アウトプット低い:</translation>
+        <translation>低い出力:</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1701,17 +1723,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+32"/>
         <source>After Fee:</source>
-        <translation>料金の後</translation>
+        <translation>手数料差引後:</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Change</source>
-        <translation>お釣り:</translation>
+        <translation>釣り銭:</translation>
     </message>
     <message>
         <location line="+50"/>
         <source>custom change address</source>
-        <translation>カスタムのお釣りのアドレス</translation>
+        <translation>カスタムの釣り銭アドレス</translation>
     </message>
     <message>
         <location line="+106"/>
@@ -1726,7 +1748,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+20"/>
         <source>Remove all transaction fields</source>
-        <translation>全分の処理欄を削除する</translation>
+        <translation>すべてのトランザクション項目を削除する</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1751,12 +1773,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>送る (&amp;e)</translation>
+        <translation>送金 (&amp;E)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
         <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>ブラックコインアドレスの入力 (例；B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation>bitblocksアドレスの入力 (例；B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1766,17 +1788,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Copy amount</source>
-        <translation>総額のコピー</translation>
+        <translation>金額のコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy fee</source>
-        <translation>料金をコピー</translation>
+        <translation>手数料をコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy after fee</source>
-        <translation>料金の後をコピー</translation>
+        <translation>手数料差引後をコピー</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1786,17 +1808,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Copy priority</source>
-        <translation>優先をコピー</translation>
+        <translation>優先度をコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy low output</source>
-        <translation>アウトプット低いをコピー</translation>
+        <translation>低い出力をコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change</source>
-        <translation>お釣りをコピー</translation>
+        <translation>釣り銭をコピー</translation>
     </message>
     <message>
         <location line="+86"/>
@@ -1811,7 +1833,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>%1送付、よろしいですか?</translation>
+        <translation>%1を送金、よろしいですか?</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1831,12 +1853,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>額が残高を超えています。</translation>
+        <translation>金額が残高を超えています。</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>%1 の処理手数料を含めると額が残高を超えています。</translation>
+        <translation>金額に%1 のトランザクション手数料を含めると残高を超えています。</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1846,27 +1868,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+5"/>
         <source>Error: Transaction creation failed.</source>
-        <translation>エラー：処理を失敗しました。</translation>
+        <translation>エラー：トランザクション作成に失敗しました。</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>エラー：処理は拒否されました。ウォレットのコインをすでに費やした可能性で、wallet.datのコピーで費やしたが、現行のwallet.datとはアップデートされていない。</translation>
+        <translation>エラー：トランザクションは拒否されました。これは、wallet.datファイルのコピーを使用しコインがコピーしたウォレットで費やされた等、あなたのウォレットのコインの一部がすでに使われている場合に発生する可能性があります。</translation>
     </message>
     <message>
         <location line="+251"/>
         <source>WARNING: Invalid bitblocks address</source>
-        <translation>警告：無効なブラックコインアドレス</translation>
+        <translation>警告：無効なbitblocksアドレス</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>(no label)</source>
-        <translation>（ラベル無し）</translation>
+        <translation>（ラベルなし）</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>WARNING: unknown change address</source>
-        <translation>警告：不明なお釣りのアドレス</translation>
+        <translation>警告：不明な釣り銭アドレス</translation>
     </message>
 </context>
 <context>
@@ -1879,7 +1901,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>金額(&amp;A):</translation>
+        <translation>金額(&amp;m):</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1925,12 +1947,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>この受信者を外す</translation>
+        <translation>この受信者を除外する</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>ブラックコインアドレスの入力 (例；B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation>bitblocksアドレスの入力 (例；B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1949,7 +1971,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-118"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>あなた自身を立証するためにあなたのアドレスでメッセージに署名することができます。フィッシング攻撃によってあなたを騙して署名を譲渡させようとするかもしれないので、不明確なものは絶対に署名しないように注意してください。あなたが同意する完全に詳細な声明にだけ署名してください。</translation>
+        <translation>あなた自身を証明するためにあなたのアドレスでメッセージに署名することができます。フィッシング攻撃によってあなたを騙して署名を譲渡させようとするかもしれないので、不明確なものは絶対に署名しないように注意してください。あなたが同意する完全に詳細なメッセージにだけ署名してください。</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1960,7 +1982,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+10"/>
         <location line="+203"/>
         <source>Choose an address from the address book</source>
-        <translation>アドレス帳からアドレスを選ぶ</translation>
+        <translation>アドレス帳からアドレスを選択</translation>
     </message>
     <message>
         <location line="-193"/>
@@ -1986,7 +2008,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+24"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>現在の署名をシステムのクリップボードにコピーする</translation>
+        <translation>現在の署名をシステムのクリップボードへコピー</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -2034,7 +2056,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a bitblocks address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>ブラックコインのアドレスを入力(例：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <translation>bitblocksのアドレスを入力(例：B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2044,13 +2066,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Enter bitblocks signature</source>
-        <translation>ブラックコインのデジタル署名を入力</translation>
+        <translation>bitblocksのデジタル署名を入力</translation>
     </message>
     <message>
         <location line="+82"/>
         <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation>不正なアドレスが入力されました。</translation>
+        <translation>入力されたアドレスは不正です。</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -2089,7 +2111,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+59"/>
         <source>The signature could not be decoded.</source>
-        <translation>署名がデコードできません。</translation>
+        <translation>署名を復号できません。</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2123,12 +2145,14 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message numerus="yes">
         <location line="-2"/>
         <source>Open for %n block(s)</source>
-        <translation><numerusform>%n ブロックに開いている</numerusform></translation>
+        <translation>
+            <numerusform>%n ブロックに開いている</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+8"/>
         <source>conflicted</source>
-        <translation>相違</translation>
+        <translation>衝突</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2143,7 +2167,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>%1 確認</translation>
+        <translation>%1 検証済み</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2153,7 +2177,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>%n ノードにブロードキャスト</numerusform></translation>
+        <translation>
+            <numerusform>%n ノードにブロードキャスト</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2168,7 +2194,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+0"/>
         <source>Generated</source>
-        <translation>生成された</translation>
+        <translation>生成されました</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2201,12 +2227,14 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+17"/>
         <location line="+30"/>
         <source>Credit</source>
-        <translation>クレジット</translation>
+        <translation>入金</translation>
     </message>
     <message numerus="yes">
         <location line="-102"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>%n 以上のブロックが満期</numerusform></translation>
+        <translation>
+            <numerusform>あと %n ブロックで成熟します</numerusform>
+        </translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2219,12 +2247,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+15"/>
         <location line="+30"/>
         <source>Debit</source>
-        <translation>引き落とし額</translation>
+        <translation>出金</translation>
     </message>
     <message>
         <location line="-39"/>
         <source>Transaction fee</source>
-        <translation>処理の手数料</translation>
+        <translation>トランザクション手数料</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -2244,7 +2272,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+2"/>
         <source>Transaction ID</source>
-        <translation>処理のID</translation>
+        <translation>トランザクションID</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2259,7 +2287,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+8"/>
         <source>Transaction</source>
-        <translation>処理</translation>
+        <translation>トランザクション</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2269,7 +2297,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+23"/>
         <source>Amount</source>
-        <translation>総額</translation>
+        <translation>金額</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2297,12 +2325,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
-        <translation>処理の詳細</translation>
+        <translation>トランザクションの詳細</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>ここでは処理の詳細を表示しています</translation>
+        <translation>ここではトランザクションの詳細を表示しています</translation>
     </message>
 </context>
 <context>
@@ -2320,12 +2348,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Helbidea</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Amount</source>
-        <translation>総額</translation>
+        <translation>金額</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -2340,7 +2368,9 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message numerus="yes">
         <location line="-15"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>%n 以上のブロックを開く</numerusform></translation>
+        <translation>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2355,22 +2385,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+3"/>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>検証最中 (%1 / %2 の進めている検証済み)</translation>
+        <translation>検証中 (%2 中 %1 検証済み)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Conflicted</source>
-        <translation>相違</translation>
+        <translation>衝突</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>未熟 (%1 検証,%2の後可用ができる)</translation>
+        <translation>未成熟 (%1 検証済み,%2検証完了後に使用可能となります)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>このブロックは他のどのノードによっても受け取られないで、多分受け入れられないでしょう！</translation>
+        <translation>このブロックは他のノードでは受信されておらず、おそらく受け入れられません！</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2410,27 +2440,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+190"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>処理の状況。この欄の上にカーソルを置くと検証の数を表示します。</translation>
+        <translation>トランザクションの状況。この欄の上にカーソルを置くと検証の数を表示します。</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>処理を受信した日時。</translation>
+        <translation>トランザクションを受信した日時。</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>処理の種類。</translation>
+        <translation>トランザクションの種類。</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>処理の宛先アドレス。</translation>
+        <translation>トランザクションの宛先アドレス。</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>残高に追加または削除された総額。</translation>
+        <translation>残高に追加または取り除かれた金額。</translation>
     </message>
 </context>
 <context>
@@ -2474,7 +2504,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+11"/>
         <source>Received with</source>
-        <translation>送り主</translation>
+        <translation>受信元</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2504,27 +2534,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+7"/>
         <source>Min amount</source>
-        <translation>最小の額</translation>
+        <translation>最小金額</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Copy address</source>
-        <translation>アドレスをコピーする</translation>
+        <translation>アドレスをコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation>ラベルをコピーする</translation>
+        <translation>ラベルをコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy amount</source>
-        <translation>総額のコピー</translation>
+        <translation>金額のコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy transaction ID</source>
-        <translation>処理IDをコピー</translation>
+        <translation>トランザクションIDをコピー</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2534,17 +2564,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Show transaction details</source>
-        <translation>処理の詳細を表示</translation>
+        <translation>トランザクションの詳細を表示</translation>
     </message>
     <message>
         <location line="+144"/>
         <source>Export Transaction Data</source>
-        <translation>処理のデータを書き出す</translation>
+        <translation>トランザクションデータを書き出す</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>テキスト CSV (*.csv)</translation>
+        <translation>CSVファイル (*.csv)</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -2569,12 +2599,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Address</source>
-        <translation>Helbidea</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Amount</source>
-        <translation>総額</translation>
+        <translation>金額</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2584,12 +2614,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>エラーを書き出す</translation>
+        <translation>エクスポートエラー</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>ファイルを書き込めなかった。%1</translation>
+        <translation>ファイル%1に書き込みできません。</translation>
     </message>
     <message>
         <location line="+100"/>
@@ -2607,7 +2637,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../walletmodel.cpp" line="+206"/>
         <source>Sending...</source>
-        <translation>通信中...</translation>
+        <translation>送信中...</translation>
     </message>
 </context>
 <context>
@@ -2615,7 +2645,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
         <source>bitblocks version</source>
-        <translation>ブラックコインバージョン</translation>
+        <translation>bitblocksバージョン</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2655,7 +2685,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+2"/>
         <source>Specify wallet file (within data directory)</source>
-        <translation>ウォレットのファイルを指定　(データ・ディレクトリの中に)</translation>
+        <translation>ウォレット ファイルを指定　(データ・ディレクトリの中に)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2670,7 +2700,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation>メガバイトでのデータベースのログザイズの大きさの設定(デファルト：100)</translation>
+        <translation>データベースのログザイズの大きさのメガバイトで設定(デファルト：100)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2690,17 +2720,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Specify your own public address</source>
-        <translation>あなた自身のパブリックなアドレスを指定</translation>
+        <translation>あなた自身のパブリック アドレスを指定</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>アドレスに結ぶ。IPv6のばい、[host]:port 表記法を使ってください。</translation>
+        <translation>指定されたアドレスにバインドします。 IPv6用に[host]：port記法を使用する</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Stake your coins to support network and gain reward (default: 1)</source>
-        <translation>褒奨金をもらうためと、ブラックコインネットワークをサッポートするために、コインを賭ける(デファルト：1)</translation>
+        <translation>褒奨金をもらうためと、bitblocksネットワークをサッポートするために、コインを賭ける(デファルト：1)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2715,7 +2745,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-44"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>IPv4 でリスンする RPC ポート %u の設定中にエラーが発生しました: %s</translation>
+        <translation>IPv4 で接続する RPC ポート %u の設定中にエラーが発生しました: %s</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -2765,7 +2795,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-88"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>デーモンとしてバックグランドで実行しコマンドを許可</translation>
+        <translation>デーモンとしてバックグランドで実行しコマンドを受け入れる</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2780,7 +2810,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-38"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>IPv6 でリスンする RPC ポート %u の設定中にエラーが発生したので IPv4 に切り替えます: %s</translation>
+        <translation>IPv6 で接続する RPC ポート %u の設定中にエラーが発生したので IPv4 に切り替えます: %s</translation>
     </message>
     <message>
         <location line="+117"/>
@@ -2800,22 +2830,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+61"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong bitblocks will not work properly.</source>
-        <translation> 警告：コンピュータの日付と時間を調べてください。時間ずらしかったばい、ブラックコイン QTは正しく行動しない。</translation>
+        <translation> 警告：コンピュータの日付と時間を調べてください。時間ずらしかったばい、bitblocks QTは正しく行動しない。</translation>
     </message>
     <message>
         <location line="-31"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>警告: wallet.dat の読み込みエラー! すべてのキーは正しく読み取れますが、処理のデータやアドレス帳のエントリが失われたか、正しくない可能性があります。</translation>
+        <translation>警告: wallet.datファイルの読み込みエラー! すべてのキーは正しく読み取れますが、トランザクションのデータやアドレス帳のエントリが失われたか、正しくない可能性があります。</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>警告: wallet.dat のデータはの汚染で、でデータを復旧しました！ オリジナルの wallet.dat は wallet.{timestamp}.bak として %s に保存されました; もしもあなたの残高や処理が正しくないばい、バックアップから復元してください。</translation>
+        <translation>警告: wallet.datファイルが破損したのでデータを復旧しました！ オリジナルの wallet.datファイルは wallet.{timestamp}.bakファイルとして %s に保存されました; もしもあなたの残高やトランザクションが正しくない場合バックアップから復元してください。</translation>
     </message>
     <message>
         <location line="-30"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>壊れた wallet.dat から秘密鍵を復旧することを試す</translation>
+        <translation>壊れた wallet.datファイルから秘密鍵を復旧することを試す</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2830,12 +2860,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+4"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>自分の IP アドレスを発見 (初期値:  リスン中と -externalip を使用していない場合は1)</translation>
+        <translation>自分のIPアドレスを発見 (初期値: 接続中と -externalip オプションを使用していない場合は1)</translation>
     </message>
     <message>
         <location line="+94"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>ポートのリスンに失敗しました。必要であれば -listen=0 を使用してください。</translation>
+        <translation>ポートの接続に失敗しました。必要であれば -listen=0 を使用してください。</translation>
     </message>
     <message>
         <location line="-90"/>
@@ -2845,17 +2875,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+5"/>
         <source>Sync checkpoints policy (default: strict)</source>
-        <translation>同期チェックポイント方針(デファルト：厳しい)</translation>
+        <translation>同期チェックポイント方針(デファルト：strict)</translation>
     </message>
     <message>
         <location line="+83"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>無効なTORアドレス: &apos;%s&apos;</translation>
+        <translation>無効なTorアドレス: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>-reservebalance=&lt;amount&gt;の額は無効です</translation>
+        <translation>-reservebalance=&lt;amount&gt;の金額は無効です</translation>
     </message>
     <message>
         <location line="-82"/>
@@ -2885,27 +2915,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+1"/>
         <source>Prepend debug output with timestamp</source>
-        <translation>デバッグのアウトプットはタイムスタンプで先頭に追加する</translation>
+        <translation>デバッグ出力の先頭にタイムスタンプを追加する</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL オプション: (SSLのセットアップ手順は Bitcoin Wiki をご覧下さい)</translation>
+        <translation>SSL オプション: (SSLのセットアップ手順は Bitcoin Wiki を参照)</translation>
     </message>
     <message>
         <location line="-74"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>SOCKSプロクシーのバージョンを選択する (4-5、 デファルト: 5)</translation>
+        <translation>使用するSOCKSプロキシのバージョンを選択 (4-5、 デファルト: 5)</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>トレース/デバッグ情報を debug.log ファイルの代わりにコンソールへ送る</translation>
+        <translation>トレース/デバッグ情報を debug.logファイルの代わりにコンソールへ送信</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>デバッガへ追跡とデバッグ情報を送る。</translation>
+        <translation>トレース/デバッグ情報をデバッガーへ送信</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -2925,29 +2955,29 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-42"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>接続のタイムアウトをミリセコンドで指定 (初期値: 5000)</translation>
+        <translation>接続タイムアウトをミリ秒で指定 (初期値: 5000)</translation>
     </message>
     <message>
         <location line="+109"/>
         <source>Unable to sign checkpoint, wrong checkpointkey?
 </source>
-        <translation>チェックポイントを署名できません。checkpointkeyは違いますか。
+        <translation>チェックポイントを署名できません。checkpointkeyは違いますか？
 </translation>
     </message>
     <message>
         <location line="-80"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>リスン ポートの割当に UPnP を使用 (初期値: 0)</translation>
+        <translation>UPnPを使用して接続ポートをマップする(デファルト: 0)</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>リスン ポートの割当に UPnP を使用 (初期値: リスン中は1)</translation>
+        <translation>UPnPを使用して接続ポートをマップする(デファルト: 接続中は1)</translation>
     </message>
     <message>
         <location line="-25"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>プロクシーでTORヒドゥンサービス(TOR Hidden Services)を接続する(デファルト：-proxyと同じ)</translation>
+        <translation>Torの隠されたサービスにアクセスするためにプロキシを使用する(デファルト：-proxyと同じ)</translation>
     </message>
     <message>
         <location line="+42"/>
@@ -2977,7 +3007,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-48"/>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat が壊れ、復旧に失敗しました</translation>
+        <translation>wallet.datファイルが壊れています。復旧に失敗しました</translation>
     </message>
     <message>
         <location line="-54"/>
@@ -3006,7 +3036,7 @@ rpcpassword=%s
 ユーザ名とパスワードは同じであってはなりません。
 ファイルは存在しないばいは、所有者が読み取り可能な専用のファイルを作成してください。
 問題のことを知らせるために、alertnotifyの設定を有効にしたほうがいいです。
-例：alertnotify=echo %%s | mail -s &quot;ブラックコイン警告&quot; admin@foo.com
+例：alertnotify=echo %%s | mail -s &quot;bitblocks警告&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3042,7 +3072,7 @@ rpcpassword=%s
     <message>
         <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>ウォレットの処理を変更する際にコマンドを実行 (cmd の %s は TxID に置換される)</translation>
+        <translation>ウォレットのトランザクションを変更する際にコマンドを実行 (cmd の %s は TxID に置換される)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3057,7 +3087,7 @@ rpcpassword=%s
     <message>
         <location line="+2"/>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>関連した警告をもらったら、コマンドを実行する (cmdの中で%sにメッセージを交換される)</translation>
+        <translation>関連した警告を受信した際にコマンドを実行する (cmdの中で%sにメッセージを交換される)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3067,12 +3097,12 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>key pool のサイズを &lt;n&gt; (初期値: 100) にセット</translation>
+        <translation>key pool のサイズを &lt;n&gt; (初期値: 100) に設定</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>失ったウォレットの処理のブロック チェーンを再スキャン</translation>
+        <translation>ウォレットのトランザクション欠落のためブロックチェーンを再スキャン</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3087,7 +3117,7 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Imports blocks from external blk000?.dat file</source>
-        <translation>外部 blk000?.dat ファイルからブロックを読み込む。</translation>
+        <translation>外部 blk000?.datファイルからブロックを読み込む。</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3112,7 +3142,7 @@ rpcpassword=%s
     <message>
         <location line="+53"/>
         <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>エラー：アンロックされたウォレットは賭けるためだけで、処理を作られない。</translation>
+        <translation>エラー：アンロックされたウォレットはStakeするためだけで、トランザクションを作成できない。</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -3122,7 +3152,7 @@ rpcpassword=%s
     <message>
         <location line="-158"/>
         <source>This help message</source>
-        <translation>このヘルプ メッセージ</translation>
+        <translation>このヘルプメッセージ</translation>
     </message>
     <message>
         <location line="+95"/>
@@ -3132,12 +3162,12 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Cannot obtain a lock on data directory %s.  bitblocks is probably already running.</source>
-        <translation>%sディレクトリにをロックオンできない。ブラックコインQTは、もう発行してるでしょう。</translation>
+        <translation>%sディレクトリにをロックオンできない。bitblocksQTは、もう発行してるでしょう。</translation>
     </message>
     <message>
         <location line="-98"/>
         <source>bitblocks</source>
-        <translation>ブラックコイン</translation>
+        <translation>bitblocks</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3147,37 +3177,37 @@ rpcpassword=%s
     <message>
         <location line="-130"/>
         <source>Connect through socks proxy</source>
-        <translation>SOCKSプロキシで接続する</translation>
+        <translation>SOCKSプロキシ経由で接続する</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>-addnode, -seednode と -connect で DNS ルックアップを許可する</translation>
+        <translation>-addnode, -seednode と -connect でDNSルックアップを許可する</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Loading addresses...</source>
-        <translation>アドレスを読み込んでいます...</translation>
+        <translation>アドレスを読み込み中...</translation>
     </message>
     <message>
         <location line="-15"/>
         <source>Error loading blkindex.dat</source>
-        <translation>blkindex.dat 読み込みエラー</translation>
+        <translation>blkindex.datファイルの読み込みエラー</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>wallet.dat 読み込みエラー: ウォレットが壊れました</translation>
+        <translation>wallet.datファイルの読み込みエラー: ウォレットが破損しました。</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error loading wallet.dat: Wallet requires newer version of bitblocks</source>
-        <translation>wallet.dat 読み込みエラー: 　ブラックコインQTの最新バージョンが必要です</translation>
+        <translation>wallet.dat 読み込みエラー: 　bitblocksQTの最新バージョンが必要です</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Wallet needed to be rewritten: restart bitblocks to complete</source>
-        <translation>ウォレットのデータをリライトしなければならい：ブラックコインQTをリスタートしてください</translation>
+        <translation>ウォレットのデータをリライトしなければならい：bitblocksQTをリスタートしてください</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3212,7 +3242,7 @@ rpcpassword=%s
     <message>
         <location line="-24"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>-paytxfee=&lt;amount&gt; の額 &apos;%s&apos; が無効です</translation>
+        <translation>-paytxfee=&lt;amount&gt; の金額 &apos;%s&apos; が無効です</translation>
     </message>
     <message>
         <location line="+44"/>
@@ -3222,12 +3252,12 @@ rpcpassword=%s
     <message>
         <location line="+11"/>
         <source>Sending...</source>
-        <translation>通信中...</translation>
+        <translation>送信中...</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Invalid amount</source>
-        <translation>無効な総額</translation>
+        <translation>無効な金額</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3237,17 +3267,17 @@ rpcpassword=%s
     <message>
         <location line="-34"/>
         <source>Loading block index...</source>
-        <translation>ブロック インデックスを読み込んでいます...</translation>
+        <translation>ブロック インデックスを読み込み中...</translation>
     </message>
     <message>
         <location line="-103"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>接続するノードを追加し接続を持続するように試します</translation>
+        <translation>接続を維持したままノードを追加する</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>Unable to bind to %s on this computer. bitblocks is probably already running.</source>
-        <translation>このコンピューターで%sに結ぶことができなかった。ブラックコインQTは、もう発行してるでしょう。</translation>
+        <translation>このコンピューターで%sに結ぶことができなかった。bitblocksQTは、もう発行してるでしょう。</translation>
     </message>
     <message>
         <location line="-97"/>
@@ -3262,7 +3292,7 @@ rpcpassword=%s
     <message>
         <location line="+25"/>
         <source>Loading wallet...</source>
-        <translation>ウォレットを読み込んでいます...</translation>
+        <translation>ウォレットを読み込み中...</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3304,9 +3334,9 @@ rpcpassword=%s
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>rpcpassword=&lt;password&gt; を設定ファイルでセットしてください:
+        <translation>rpcpassword=&lt;password&gt; を設定ファイルで設定してください:
 %s
-ファイルが無い場合は、オーナーだけが読み取れる権限でファイルを作成してください。</translation>
+ファイルが存在しない場合は、オーナーだけが読み取れる権限でファイルを作成してください。</translation>
     </message>
 </context>
 </TS>
