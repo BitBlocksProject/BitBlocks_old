@@ -2,15 +2,13 @@
 
 http://bitblocksproject.com/
 
-Instant, Anonymous, Secure, No fee & Rewarding Cryptocurrency For Everyone
+Instant, Secure, No fee & Rewarding Cryptocurrency For Everyone
 
 Instant Transactions - Send and receive payments and confirm within seconds
 
 Zero Fees - Improve your savings with BitBlocks zero transaction fees
 
 Secure - Have complete ownership and control over your finances.
-
-Private - No blacklisting, no tracing, no intermediary required.
 
 Staking - Forget power-hungry mining rigs – stake and earn interest
 
