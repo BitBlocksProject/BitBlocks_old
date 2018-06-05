@@ -353,7 +353,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
             "getblocktemplate [params]\n"
             "Returns data needed to construct a block to work on:\n"
             "  \"version\" : block version\n"
-            "  \"previousblockhash\" : hash of current BBKest block\n"
+            "  \"previousblockhash\" : hash of current BBK block\n"
             "  \"transactions\" : contents of non-coinbase transactions that should be included in the next block\n"
             "  \"coinbaseaux\" : data that should be included in coinbase\n"
             "  \"coinbasevalue\" : maximum allowable input to coinbase transaction, including the generation award and transaction fees\n"

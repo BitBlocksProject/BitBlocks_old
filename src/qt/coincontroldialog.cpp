@@ -384,7 +384,7 @@ QString CoinControlDialog::getPriorityLabel(double dPriority)
 {
     if (dPriority > 576000ULL) // at least medium, this number is from AllowFree(), the other thresholds are kinda random
     {
-        if      (dPriority > 5760000000ULL)   return tr("BBKest");
+        if      (dPriority > 5760000000ULL)   return tr("BBK");
         else if (dPriority > 576000000ULL)    return tr("BBK");
         else if (dPriority > 57600000ULL)     return tr("medium-BBK");
         else                                    return tr("medium");

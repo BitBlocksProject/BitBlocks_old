@@ -263,7 +263,7 @@ CBlock* CreateNewBlock(CWallet* pwallet, bool fProofOfStake, int64_t* pFees)
 
         while (!vecPriority.empty())
         {
-            // Take BBKest priority transaction off the priority queue:
+            // Take BBK priority transaction off the priority queue:
             double dPriority = vecPriority.front().get<0>();
             double dFeePerKb = vecPriority.front().get<1>();
             CTransaction& tx = *(vecPriority.front().get<2>());
